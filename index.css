@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+}
+.container{
+	  width:500px;
+	  height:500px;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  flex-wrap:wrap;
+	  padding: 20px;
+}
+
+.container .sBox{
+	background-color: grey;
+	width:20px;
+	height:20px;
+	margin:2px;
+	transition:0.5s;
+	transition: background 1s ease;
+}
+
